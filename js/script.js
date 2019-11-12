@@ -15,7 +15,7 @@ AFRAME.registerComponent('my-event', {
       descBanda.setAttribute('class', 'descText');
       descBanda.setAttribute('text', 'width: 1');
       descCapa.setAttribute('src', '#capa');
-      descCapa.setAttribute('position', '.9 .35 0.005');
+      descCapa.setAttribute('position', '.9 .35 0.015');
       descCapa.setAttribute('scale', '.19 .18 1');
       descAlbum.setAttribute('value', `Album: ${album}`);
       descAlbum.setAttribute('class', 'descText');
@@ -58,7 +58,7 @@ AFRAME.registerComponent('my-event', {
       description.setAttribute('rotation', '-90 0 0');
       description.setAttribute('width', '1.25');
       description.setAttribute('size', '1 2 1');
-      description.setAttribute('position', '0 0.5 0.001');
+      description.setAttribute('position', '0 0.5 -1.5');
       description.setAttribute('material', 'color: #131313');
       
       
